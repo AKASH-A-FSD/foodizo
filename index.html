@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodizo</title>
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="garbage"></div>
+    <header>
+       <div class="container">
+        <div class="left-con">
+           <div class="left">
+            <div ><i class="fa-solid fa-phone"></i>+304 555 8473</div>
+            <div ><i class="fa-solid fa-location-dot"></i>Choose your location</div>
+           </div>
+        </div>
+        <div class="right-con">
+           <div class="right">
+           <div> <i class="fa-brands fa-facebook-f"></i></i></div>
+            <div class=""> <i class="fa-brands fa-instagram"></i></i></div>
+            <div class=""><i class="fa-brands fa-youtube"></i></div>
+            <div class=""><i class="fa-brands fa-linkedin-in"></i></div>
+           
+        </div>
+        </div>
+       </div>
+    </header>
+    <nav>
+      
+            <div class="nav-con">
+                <div class="left-nav">
+                    <img src="./Assets/images/logo.png" alt="logo"></h1>
+                </div>
+                <div class="center-nav">
+                    <ul>
+                       <div class="mainli"> 
+                        <li id="click" ><p onmouseover=dispalaydata() >Home</p><i class="fa-solid fa-chevron-down"></i></li>
+                        <ul id="drop" onmouseleave=closedata()>
+                           <li>hello hi</li>
+                           <li>hello hi</li>
+                           <li>hello hi</li>
+                           
+                        </ul>
+                    </div>
+                        <li><p>Pages</p><i class="fa-solid fa-chevron-down"></i></li>
+                        <li><p>Our menu</p></li>
+                        <li><p>Shop</p><i class="fa-solid fa-chevron-down"></i></li>
+                        <li><p>Blog</p><i class="fa-solid fa-chevron-down"></i></li>
+                        <li><p>Contact Us</p</li>
+                       
+                    </ul>
+                </div>
+                <div class="right-nav">
+                    <i class="fa-solid fa-magnifying-glass" id="search"></i>
+                    <i class="fa-solid fa-bag-shopping" id="bag"></i>
+                    <h3>Cart(0)</h3>
+                </div>
+               </div>
+               
+               
+        
+    </nav>
+    <div class="home-1">
+            <div class="home-1-con">
+                <div class="home-1-con1"><div class="homeimg"><img src="https://foodizo.peacefulqode.in/wp-content/uploads/2024/01/Group-890.png" alt=""></div></div>
+                <div class="home-1-con1"><h1>FastFood Resturant</h1></div>
+            </div> 
+            <div class="purchase"><button>PURCHASE NOW</button></div>
+            <div class="home11"><img src="./Assets/images/home11.jpg" alt=""></div>   
+            <div class="home12"><img src="./Assets/images/home11.jpg" alt=""></div>
+            <div class="home21"><img src="https://foodizo.peacefulqode.in/wp-content/uploads/2024/01/4.jpg" alt=""></div>   
+            <div class="home22"><img src="https://foodizo.peacefulqode.in/wp-content/uploads/2024/01/4.jpg" alt=""></div>   
+            <div class="home-center-img"><img src="https://foodizo.peacefulqode.in/wp-content/uploads/2024/01/1-10.png" alt=""></div>
+    </div>
+
+
+    <script>
+
+
+
+function dispalaydata() {
+
+let mydiv=document.querySelector("#drop")
+console.log(mydiv);
+
+let data=mydiv.classList.add("open123");
+console.log(data);
+
+}
+function closedata() {
+
+let mydiv=document.querySelector("#drop")
+console.log(mydiv);
+
+let data=mydiv.classList.remove("open123");
+console.log(data);
+
+}
+    </script>
+</body>
+</html>

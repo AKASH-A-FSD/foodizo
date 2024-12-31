@@ -1,0 +1,824 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.dela-gothic-one-regular {
+	font-family: "Dela Gothic One", serif;
+	font-weight: 300;
+	font-style: normal;
+  }
+  
+.garbage{
+    width: 100%;
+    height: 55px;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    
+    width: 70%;
+    height: 100%;
+    /* background-color: rgb(165, 121, 207); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-con{
+    /* background-color: bisque; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.left-con .left{
+     /* background-color: yellow; */
+    width: 65%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+}
+.left div{
+    width: 100%;
+    height: 100%;
+    border-right: 0.5px solid rgb(128, 128, 128,0.4);
+    border-left:0.5px solid rgb(128, 128, 128,0.4) ;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:sans-serif;
+    font-size: 16px;
+    color: white;
+    
+}
+.left div i{
+    margin-right: 10px;
+}
+.right-con{
+    /* background-color: aliceblue; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    
+    align-items: center;
+    justify-content: flex-end;
+}
+.right-con .right{
+ height: 100%;
+width: 30%;
+/* background-color: violet; */
+display: flex;
+align-items: center;
+}
+
+.right div{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    /* background-color: aqua; */
+    height: 100%;
+    width: 25%;
+    
+    border-right: 0.5px solid rgb(128, 128, 128,0.4);
+    border-left:0.5px solid rgb(128, 128, 128,0.4) ;
+}
+.right div i{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    height: 100%;
+    padding:20px 20px;
+    color: white;
+    transition:0.8s;
+}
+.right div i:hover{
+    background-color:rgb(192,10,39);
+}
+
+nav{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    /* background-color: rgb(94, 255, 0); */
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+  
+
+}
+.nav-con{
+    width: 70%;
+    height: 100%;
+    display: flex;
+	/* background-color:rgb(89, 187, 78); */
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 10px;
+}
+.left-nav{
+    width: 20%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+  
+
+}
+.left-nav img{
+    width:75%;
+}
+.center-nav{
+	width: 60%;
+	height: 100%;
+	/* background-color: violet; */
+	display: flex;
+    align-items: center;
+    justify-content:center;
+	padding: 30px;
+}
+.center-nav ul{
+	width: 100%;
+	height: 100%;
+	list-style-type: none;
+	display: flex;
+    align-items: center;
+    justify-content:space-between;
+	font-family: "Dela Gothic One", serif
+}
+.center-nav ul li{
+	
+	display: flex;
+    align-items: center;
+	margin-right: 30px;
+	
+    
+}
+.center-nav ul li p{
+	margin-right: 10px;
+	position:relative;
+}
+.right-nav{
+	width: 15%;
+	height: 100%;
+	/* background-color: tomato; */
+	display: flex;
+    align-items: center;
+    justify-content:flex-end;
+	padding: 5px;
+	
+}
+#search{
+	padding: 20px 15px;
+	font-size: 20px;
+}
+#bag{
+	padding: 20px 10px;
+	margin-right: 5px;
+	color: red;
+	font-size: 20px;
+}
+.center-nav ul li:hover {
+	color:rgb(192,10,39);
+
+}
+.mainli{
+   position:relative;
+}
+
+#drop {
+    width: 200px;
+    height: 200px;
+    padding: 10px 20px;
+    opacity: 0;
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top:100px;
+    border-radius:10px;
+    z-index: 10;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    box-shadow: 0 2px 4px 0 gainsboro;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+/* #drop li{
+ 
+    padding: 10px 20px;
+  
+}
+.mainli:hover #drop{
+display: block;
+} */
+.home-1{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(192,10,39);
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    position:relative;
+   
+
+}
+.home-1-con{
+    width:50%;
+    height: 30%;
+    margin-top: 40px;
+    /* background-color: rgb(96, 241, 169); */
+   position: absolute;
+    
+}
+.home-1-con .home-1-con1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+.homeimg {
+    width: 40%;
+    height:auto;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    /* background-color: yellowgreen; */
+}
+.home-1-con1 h1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items:flex-start;
+    justify-content:center;
+    font-size: 70px;
+    font-family: sans-serif;
+    color: white;
+    -webkit-text-stroke-width: 3px;
+}
+.homeimg img{
+    width: 90%;
+    height: 100%;
+}
+.home11{
+    position: absolute;
+    background-color: aliceblue;
+    width:15%;
+    height: 25% ;
+    top:20%;  
+    left:10%;
+    animation:small 2s infinite;  
+} 
+.home12{
+    position: absolute;
+    background-color: rgb(81, 124, 162);
+    width:15%;
+    height: 25% ;
+   left: 75%;
+   top: 20%;
+    animation:small 2s infinite;  
+}
+.home21{
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    top: 65%;
+    left: 7%;
+    animation:small 2s infinite;  
+
+    
+}
+.home22 img{
+    width:100% ;
+    height: 100%;
+    animation:small 2s infinite;  
+}
+@keyframes small {
+    1%{
+        transform: translateX(4px);
+    }
+    25%{
+        transform: translatey(4px);
+    }
+    50%{
+        transform: translatex(-4px);
+    }
+    100%{
+        transform: translatey(-4px);
+    }
+    
+}
+.home21 img{
+    width:100% ;
+    height: 100%;
+}
+.home22{
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    top: 65%;
+    left: 73%;
+  
+}
+
+.cursor .m1:hover .home1{
+    transform:translateX(200px);
+}
+
+.home11 img{
+   
+    width: 100%;
+    height: 100%; 
+    object-fit: contain;
+}
+.home12 img{
+   
+    width: 100%;
+    height: 100%; 
+}
+
+#drop.open123{
+    padding: 10px 20px;
+    opacity:1;
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top:60px;
+    border-radius:10px;
+    z-index: 10;
+    transition: 1s;
+    box-shadow: 0 2px 4px 0 gainsboro;
+    border-radius: 10px;
+    background-color: white;
+ 
+}
+.purchase{
+    width: 215px;
+    height: 60px;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    z-index: 11;
+}
+.purchase button{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    font-family: sans-serif;
+    border: 0px;
+    font-weight:800;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    transition: 0.5s;
+
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+.home-center-img{
+    position: absolute;
+    width: 45%;
+    height: 55%;
+    top: 55%;
+    left: 50;
+}
+.home-center-img img{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width:628px) {
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    body{
+        width: 100%;
+        height: 100vh;
+    }
+    .dela-gothic-one-regular {
+        font-family: "Dela Gothic One", serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+    .garbage{
+        width: 100%;
+        height: 55px;
+    }
+    header{
+        width: 100%;
+        height: 50px;
+        background-color:black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        
+        width: 70%;
+        height: 100%;
+        /* background-color: rgb(165, 121, 207); */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .left-con{
+        /* background-color: bisque; */
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        
+    }
+    .left-con .left{
+         /* background-color: yellow; */
+        width: 65%;
+        height: 100%;
+        
+        display: flex;
+        align-items: center;
+    }
+    .left div{
+        width: 100%;
+        height: 100%;
+        border-right: 0.5px solid rgb(128, 128, 128,0.4);
+        border-left:0.5px solid rgb(128, 128, 128,0.4) ;
+        padding: 20px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family:sans-serif;
+        font-size: 16px;
+        color: white;
+        
+    }
+    .left div i{
+        margin-right: 10px;
+    }
+    .right-con{
+        /* background-color: aliceblue; */
+        width: 50%;
+        height: 100%;
+        display: flex;
+        
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .right-con .right{
+     height: 100%;
+    width: 30%;
+    /* background-color: violet; */
+    display: flex;
+    align-items: center;
+    }
+    
+    .right div{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        /* background-color: aqua; */
+        height: 100%;
+        width: 25%;
+        
+        border-right: 0.5px solid rgb(128, 128, 128,0.4);
+        border-left:0.5px solid rgb(128, 128, 128,0.4) ;
+    }
+    .right div i{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        width: 100%;
+        height: 100%;
+        padding:20px 20px;
+        color: white;
+        transition:0.8s;
+    }
+    .right div i:hover{
+        background-color:rgb(192,10,39);
+    }
+    
+    nav{
+        position: relative;
+        width: 100%;
+        height: 100px;
+        /* background-color: rgb(94, 255, 0); */
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+      
+    
+    }
+    .nav-con{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        /* background-color:rgb(89, 187, 78); */
+        align-items: center;
+        justify-content:space-between;
+        padding: 0px 10px;
+    }
+    .left-nav{
+        width: 20%;
+        height: 100%;
+        /* background-color: blue; */
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+      
+    
+    }
+    .left-nav img{
+        width:75%;
+    }
+    .center-nav{
+        width: 60%;
+        height: 100%;
+        /* background-color: violet; */
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        padding: 30px;
+    }
+    .center-nav ul{
+        width: 100%;
+        height: 100%;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        font-family: "Dela Gothic One", serif
+    }
+    .center-nav ul li{
+        
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+        
+        
+    }
+    .center-nav ul li p{
+        margin-right: 10px;
+        position:relative;
+    }
+    .right-nav{
+        width: 15%;
+        height: 100%;
+        /* background-color: tomato; */
+        display: flex;
+        align-items: center;
+        justify-content:flex-end;
+        padding: 5px;
+        
+    }
+    #search{
+        padding: 20px 15px;
+        font-size: 20px;
+    }
+    #bag{
+        padding: 20px 10px;
+        margin-right: 5px;
+        color: red;
+        font-size: 20px;
+    }
+    .center-nav ul li:hover {
+        color:rgb(192,10,39);
+    
+    }
+    .mainli{
+       position:relative;
+    }
+    
+    #drop {
+        width: 200px;
+        height: 200px;
+        padding: 10px 20px;
+        opacity: 0;
+        position: absolute;
+        width: 300px;
+        height: auto;
+        top:100px;
+        border-radius:10px;
+        z-index: 10;
+        transition: 1s;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        box-shadow: 0 2px 4px 0 gainsboro;
+        border-radius: 10px;
+        background-color: white;
+        
+    }
+    
+    /* #drop li{
+     
+        padding: 10px 20px;
+      
+    }
+    .mainli:hover #drop{
+    display: block;
+    } */
+    .home-1{
+        width: 100%;
+        height: 100%;
+        background-color:rgb(192,10,39);
+        display: flex;
+        align-items:flex-start;
+        justify-content: center;
+        position:relative;
+       
+    
+    }
+    .home-1-con{
+        width:50%;
+        height: 30%;
+        margin-top: 40px;
+        /* background-color: rgb(96, 241, 169); */
+       position: absolute;
+        
+    }
+    .home-1-con .home-1-con1{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        /* border: 1px solid black; */
+    }
+    .homeimg {
+        width: 40%;
+        height:auto;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        /* background-color: yellowgreen; */
+    }
+    .home-1-con1 h1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items:flex-start;
+        justify-content:center;
+        font-size: 70px;
+        font-family: sans-serif;
+        color: white;
+        -webkit-text-stroke-width: 3px;
+    }
+    .homeimg img{
+        width: 90%;
+        height: 100%;
+    }
+    .home11{
+        position: absolute;
+        background-color: aliceblue;
+        width:15%;
+        height: 25% ;
+        top:20%;  
+        left:10%;
+        animation:small 2s infinite;  
+    } 
+    .home12{
+        position: absolute;
+        background-color: rgb(81, 124, 162);
+        width:15%;
+        height: 25% ;
+       left: 75%;
+       top: 20%;
+        animation:small 2s infinite;  
+    }
+    .home21{
+        position: absolute;
+        width: 20%;
+        height: 40%;
+        top: 65%;
+        left: 7%;
+        animation:small 2s infinite;  
+    
+        
+    }
+    .home22 img{
+        width:100% ;
+        height: 100%;
+        animation:small 2s infinite;  
+    }
+    @keyframes small {
+        1%{
+            transform: translateX(4px);
+        }
+        25%{
+            transform: translatey(4px);
+        }
+        50%{
+            transform: translatex(-4px);
+        }
+        100%{
+            transform: translatey(-4px);
+        }
+        
+    }
+    .home21 img{
+        width:100% ;
+        height: 100%;
+    }
+    .home22{
+        position: absolute;
+        width: 20%;
+        height: 40%;
+        top: 65%;
+        left: 73%;
+      
+    }
+    
+    .cursor .m1:hover .home1{
+        transform:translateX(200px);
+    }
+    
+    .home11 img{
+       
+        width: 100%;
+        height: 100%; 
+        object-fit: contain;
+    }
+    .home12 img{
+       
+        width: 100%;
+        height: 100%; 
+    }
+    
+    #drop.open123{
+        padding: 10px 20px;
+        opacity:1;
+        position: absolute;
+        width: 300px;
+        height: auto;
+        top:60px;
+        border-radius:10px;
+        z-index: 10;
+        transition: 1s;
+        box-shadow: 0 2px 4px 0 gainsboro;
+        border-radius: 10px;
+        background-color: white;
+     
+    }
+    .purchase{
+        width: 215px;
+        height: 60px;
+        position: absolute;
+        top: 40%;
+        left: 45%;
+        z-index: 11;
+    }
+    .purchase button{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0, 0, 0);
+        border-radius: 15px;
+        font-family: sans-serif;
+        border: 0px;
+        font-weight:800;
+        color: white;
+        padding: 10px;
+        font-size: 16px;
+        transition: 0.5s;
+    
+    }
+    button:hover{
+        background-color: white;
+        color: black;
+    }
+    .home-center-img{
+        position: absolute;
+        width: 45%;
+        height: 55%;
+        top: 55%;
+        left: 50;
+    }
+    .home-center-img img{
+        width: 100%;
+        height: 100%;
+    }
+}
